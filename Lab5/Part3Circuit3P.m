@@ -1,0 +1,6 @@
+semilogx(FrequencyHz, Channel2Phase, 'LineWidth', 2)
+xlabel('Input Frequency(Hz)', 'FontSize', 12)
+ylabel('Phase Shift(Degree)', 'FontSize', 12)
+title('Phase Shift vs Frequency, Multiple Filters', 'FontSize', 18)
+%ylim([-110 110])
+xlim([10 5.259*10^4])
